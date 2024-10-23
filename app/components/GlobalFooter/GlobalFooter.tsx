@@ -1,10 +1,15 @@
-'use client'
-
+import { cnb } from 'cnbuilder';
 import React from 'react';
+import { Container } from '../Container';
+import * as styles from './GlobalFooter.styles';
 
-export const GlobalFooter =() => (
-    <>
-    <footer className="cc global-footer basefont-20 rs-py-1 text-white bg-digital-red w-full">
+type GlobalFooterProps = {
+  className?: string;
+};
+
+export const GlobalFooter = ({ className }: GlobalFooterProps) => (
+  <Container className={cnb(styles.root, className)}>
+    <footer className="cc global-footer basefont-20 rs-py-1 text-white bg-black w-full">
       <div className="flex flex-col lg:flex-row" title="Common Stanford resources">
         <div className="text-center mt-5 mb-9">
           <a className="logo hocus:no-underline text-white hocus:text-white type-3" href="https://www.stanford.edu">Stanford<br/>University</a>
@@ -33,7 +38,7 @@ export const GlobalFooter =() => (
         </div>
       </div>
     </footer>
-    </>
+    </Container>
   );
 
 export default GlobalFooter;

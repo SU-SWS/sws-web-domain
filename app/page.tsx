@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import Image from "next/image";
-import GlobalFooter from "./components/GlobalFooter";
+import { GlobalFooter }  from "./components/GlobalFooter";
 
 export default function Home() {
   return (
@@ -53,7 +53,8 @@ export default function Home() {
           </a>
         </div>
       </main>
-      <GlobalFooter></GlobalFooter>
+      <GlobalFooter/>
+      <p>hi</p>
     </div>
   );
 }
