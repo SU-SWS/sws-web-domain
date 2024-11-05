@@ -1,5 +1,9 @@
 # sws-web-domain
 
+## 11/5/2024
+This can be repurposed or deleted as the admins see fit.  It is not used anymore. I archived it today. 
+
+## Details
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
